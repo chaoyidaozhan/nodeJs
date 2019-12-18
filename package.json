@@ -1,0 +1,30 @@
+{
+  "name": "playGames",
+  "version": "1.0.1",
+  "description": "安装 \r npm i smile-ui -S",
+  "main": "./dist/helloMsg.js",
+  "scripts": {
+    "dev": "hotnode --experimental-modules ./src/server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaoyidaozhan/smileUI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaoyidaozhan/smileUI/issues"
+  },
+  "homepage": "https://github.com/chaoyidaozhan/smileUI#readme",
+  "devDependencies": {
+    "body-parse": "^0.1.0",
+    "cookie": "^0.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.17.1",
+    "parser": "^0.1.4"
+  },
+  "dependencies": {}
+}
